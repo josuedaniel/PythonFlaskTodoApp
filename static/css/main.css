@@ -6,6 +6,13 @@ body {
 
 .content {
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /*align-items: center;*/
+    justify-content: center;
+    flex-wrap: wrap;
 }
 table, th, td {
     border: 1px solid black;
@@ -13,4 +20,21 @@ table, th, td {
     margin: 0 auto;
     padding: 20px;
 
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+form {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+#content {
+    width: 70%;
 }
